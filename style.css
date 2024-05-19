@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+main{
+    display: none;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(235, 18%, 26%);
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+img{
+    max-width: 100% !important;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0.5rem 0;
+    color: hsl(235, 18%, 26%);
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+h1{
+    color: hsl(234, 29%, 20%);
+    margin: 15px 0;
+}
+
+h2{
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 800;
+}
+
+.subs{
+    display: block;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+.list-item{
+    display: flex;
+    gap: 1rem;
+}
+
+.list-item img{
+    width: 20px;
+}
+
+.content{
+    padding: 1.5rem;
+}
+
+form label{
+    color: hsl(234, 29%, 20%);
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+form label,
+ form input{
+    display: block;
+ }
+
+ form input,
+ .btn{
+    width: 100%;
+ }
+
+ form input{
+    border: 1px solid hsl(231, 7%, 60%);
+    outline: none;
+    border-radius: 5px;
+    padding: .5rem .9rem;
+ }
+
+ .btn{
+    margin: 15px 0;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 5px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: -.5px;
+    font-weight: 700;
+    padding: .8rem 1rem;
+ }
+
+ .success{
+    padding: 1.5rem;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20rem;
+
+ }
+
+ .subscribed{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+ }
+
+ .success .btn{
+    text-align: center;
+ }
+
+ .text p{
+    padding: 1.5rem 0;
+ }
+
+
+
+ .span-mail{
+    color: hsl(234, 29%, 20%);
+    font-weight: 800;
+ }
