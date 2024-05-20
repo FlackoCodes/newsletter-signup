@@ -10,8 +10,8 @@ body{
     font-family: "Roboto", sans-serif;
     font-style: normal;
 }
-main{
-    display: none;
+.main{
+    display: block;
 }
 
 p{
@@ -67,6 +67,15 @@ ul{
     padding: 1.5rem;
 }
 
+
+.active-subscribed{
+    display: block !important;
+}
+
+.hide-main{
+    display: none;
+}
+
 form label{
     color: hsl(234, 29%, 20%);
     letter-spacing: -1px;
@@ -99,17 +108,24 @@ form label,
     letter-spacing: -.5px;
     font-weight: 700;
     padding: .8rem 1rem;
+    cursor: pointer;
  }
 
- .success{
+
+
+ .sub-section{
+    display: none;
     padding: 1.5rem;
-    margin-top: 50px;
+    margin-top: 50px;   
+ }
+
+ #subscribed-section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20rem;
-
  }
+
 
  .subscribed{
     display: flex;
@@ -125,8 +141,6 @@ form label,
  .text p{
     padding: 1.5rem 0;
  }
-
-
 
  .span-mail{
     color: hsl(234, 29%, 20%);
