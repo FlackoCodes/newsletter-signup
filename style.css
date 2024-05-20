@@ -99,6 +99,29 @@ form label,
     padding: .5rem .9rem;
  }
 
+.label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .error-state{
+    display: none;
+    font-size: .7rem;
+    font-weight: 600;
+    color: hsl(15, 100%, 49%);
+ }
+
+ .add-error{
+    display: block;
+ }
+
+ .add-email-error{
+    border: 1px solid hsl(15, 100%, 49%);
+    color: hsl(15, 100%, 49%);
+    background-color: rgba(201, 122, 122, 0.639);
+ }
+
  .btn{
     margin: 15px 0;
     background-color: hsl(234, 29%, 20%);
@@ -146,3 +169,53 @@ form label,
     color: hsl(234, 29%, 20%);
     font-weight: 800;
  }
+
+ @media screen and (min-width: 768px) {
+    body{
+        background-color: hsl(235, 18%, 26%);
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+    }
+
+    main,.sub-section{
+        background-color: hsl(0, 0%, 100%);
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .main{
+        display: flex !important;
+        flex-direction: row-reverse;
+    }
+
+    .sub-section{
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .hide-main {
+        display: none !important;
+    }
+
+    main img{
+        width: 300px;
+    }
+
+    header h1{
+        margin-top: 50px;
+    }
+
+    .sub-btn{
+        background: linear-gradient(to right, hsl(0, 82%, 62%), hsl(20, 100%, 62%));
+    }
+
+    .sub-section{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #subscribed-section{
+        gap: 1rem;
+    }
+ }
+                
